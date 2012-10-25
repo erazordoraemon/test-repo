@@ -1,5 +1,6 @@
 package tp_passerelle_bd;
 
+import java.awt.BorderLayout;
 import java.awt.Container;
 
 import javax.swing.JFrame;
@@ -20,5 +21,6 @@ public class Fenetre extends
 
 	private void initContentPane() {
 		Container container = getContentPane();
+		container.setLayout(new BorderLayout());
 	}
 }
